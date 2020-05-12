@@ -16,9 +16,9 @@ module "my-cluster" {
   cluster_name = "my-cluster" 
   cluster_version = "1.14" 
   subnets = [
-      "subnet-c74d1e8d", 
-      "subnet-e4820eb8", 
-      "subnet-1fe46778",
+      "subnet-017f5e8aca057a450", 
+      "subnet-066a49704266ff2e7", 
+      "subnet-0085820aff20b5d29",
       
       ] 
   
