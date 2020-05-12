@@ -9,13 +9,9 @@ output "ID" {
 
 
 
-output "Name" {
-  value = module.my-cluster.cluster_name
+output "Sec_group" {
+  value = module.my-cluster.cluster_security_group_id
 }
 
 
 
-
-output "REGION" {
-  value = provider.aws.region
-}
