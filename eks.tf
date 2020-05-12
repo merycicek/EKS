@@ -16,9 +16,9 @@ module "my-cluster" {
   cluster_name = "my-cluster" 
   cluster_version = "1.14" 
   subnets = [
-      "subnet-017f5e8aca057a450", 
-      "subnet-066a49704266ff2e7", 
-      "subnet-0085820aff20b5d29",
+      "subnet-03936971a96b82c84", 
+      "subnet-0a8123b0a50e89851", 
+      "subnet-0b90393d5d98553ea",
       
       ] 
   
@@ -27,6 +27,7 @@ module "my-cluster" {
     instance_type = "m4.large" 
     asg_max_size = 5 
     asg_min_size = 3
+    asg_desired_capacity = 3
     } 
   ] 
 } 
