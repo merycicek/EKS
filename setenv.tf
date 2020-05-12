@@ -66,8 +66,8 @@ EOF
 cat backend.tf
 rm -rf .terraform/
 
-echo "##############################"
+# echo "##############################"
 
-echo "Please use terraform_0.12.19"
+# echo "Please use terraform_0.12.19"
 
-echo "##############################"
+# echo "##############################"
