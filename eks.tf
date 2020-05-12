@@ -1,5 +1,5 @@
 data "aws_eks_cluster" "cluster" { 
-  name = module.my-cluster.cluster_id 
+  name = module.my-cluster.cluster_id
 } 
 data "aws_eks_cluster_auth" "cluster" { 
   name = module.my-cluster.cluster_id 
@@ -22,7 +22,7 @@ module "my-cluster" {
       
       ] 
   
-  vpc_id = "vpc-1471ad6e" 
+  vpc_id = "vpc-0dca0e74a352343a4" 
   worker_groups = [{ 
     instance_type = "m4.large" 
     asg_max_size = 5 
