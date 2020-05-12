@@ -15,7 +15,7 @@ subnet1 =   "subnet-03936971a96b82c84"
       
 subnet2 = "subnet-0a8123b0a50e89851"
 subnet3 = "subnet-0b90393d5d98553ea"
-cluster_name = var.cluster_name
+cluster_name = "my-cluster"
 instance_type = "t2.micro"
 asg_max_size = "48" 
 asg_min_size = "3"
