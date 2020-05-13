@@ -15,10 +15,10 @@ output "Sec_group" {
 
 
 
-# output "region" {
-#   value = var.region
-# }
+output "region" {
+  value = var.region
+}
 
-# output "NAME" {
-#   value = var.cluster_name
-# }
+output "NAME" {
+  value = var.cluster_name
+}
