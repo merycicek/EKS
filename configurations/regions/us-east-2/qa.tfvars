@@ -16,3 +16,7 @@ asg_max_size = "48"
 asg_min_size = "3"
 asg_desired_capacity = "3"
 cluster_version = "1.14"
+
+
+# source setenv.sh configurations/regions/us-east-2/qa.tvars
+# terraform apply -var-file configurations/regions/us-east-2/qa.tvars
